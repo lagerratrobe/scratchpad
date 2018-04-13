@@ -1,0 +1,14 @@
+So i have a data frame with the columns "date" and "ip" ,date contains a datestring and ip contains an ip address. Each row represents a request. date  range is about 5 hours.
+
+- i want to graph how many requests per second each ip makes.
+
+- I want to see how many requests an ip is making relative to the other ips at the same time period.
+
+- i can't tell if each ip is making more or few requests per second at a specific time period
+
+- I really want the y column to [be] request per time period (min/ 15 min), and x be time. each line being each ip. I was trying to group by hour or minute.
+
+- So, what I would expect is like like 3 or so lines (for each ip) going up and down over time
+
+- it would be since to have them overlayed to see if they are using them at the same time or rotating through them
+
