@@ -10,5 +10,6 @@ So i have a data frame with the columns "date" and "ip" ,date contains a datestr
 
 - So, what I would expect is like like 3 or so lines (for each ip) going up and down over time
 
-- it would be since to have them overlayed to see if they are using them at the same time or rotating through them
-
+- it would be nice to have them overlayed to see if they are using them at the same time or rotating through them
+-------------
+So, what he wants to see is a trace for each IP that shows how many times it's connected in a specific time period. Each line represents an IP address.  The X axis shows time, the Y axis is number of requests during that time period.
